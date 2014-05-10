@@ -1,0 +1,31 @@
+#################################################
+# This file is a part of SmartLifts by EasyMFnE #
+#################################################
+
+strings:
+  liftText: "[Lift]"
+  up: "Up"
+  down: "Down"
+  blocked: "Cannot reach destination, the path is blocked."
+  unfound: "No lift destination found."
+  range: "Lift destination is out of range."
+  permission: "You do not have permission to make Lifts."
+
+# Sounds from org.bukkit.Sound
+sound:
+  enabled: true
+  use: NOTE_PIANO
+  fail: NOTE_BASS
+
+range: 64
+
+# Materials from org.bukkit.Material
+blocked:
+  - bedrock
+  - ender_portal_frame
+  - ender_portal
+  - anvil
+  - enchantment_table
+  - obsidian
+  - ender_chest
+  - lava
