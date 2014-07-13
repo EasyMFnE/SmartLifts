@@ -113,7 +113,7 @@ public class PlayerListener implements Listener {
      */
     @EventHandler(ignoreCancelled = true)
     public void onSignChange(SignChangeEvent event) {
-        String[] lines = event.getLines();
+        String[] lines = event.getLines().clone();
         /* Prevent trickery with color codes faking Lift signs */
         lines[0] = ChatColor.stripColor(ChatColor.translateAlternateColorCodes(
                 '&', lines[0]));

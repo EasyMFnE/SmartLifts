@@ -1,5 +1,5 @@
 name: SmartLifts
-version: '1.0'
+version: '1.0.1'
 description: Lifts to travel between floors, checking paths for configurable interfering blocks and range.
 
 
